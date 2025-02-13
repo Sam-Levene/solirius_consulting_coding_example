@@ -1,0 +1,27 @@
+{
+  "name": "solirius_consulting_coding_example",
+  "version": "0.0.1",
+  "description": "Coding Example Challenge for Solirius Consulting",
+  "scripts": {
+    "test": "NODE_OPTIONS=\"--loader=\"ts-node/esm\"\" npx cucumber-js --tags \"@Test\"",
+    "automate": "NODE_OPTIONS=\"--loader=\"ts-node/esm\"\" npx cucumber-js --tags \"@Automate\""
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "Sam Levene",
+  "license": "MIT",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@cucumber/pretty-formatter": "^1.0.1",
+    "@playwright/test": "^1.50.1",
+    "@types/cucumber-html-reporter": "^5.0.4",
+		"@types/pngjs": "^6.0.5",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.13.1",
+    "core-js": "^3.40.0",
+    "cucumber-html-reporter": "^6.0.0",
+    "dotenv": "^16.4.7",
+    "fs-extra": "^11.3.0",
+    "ts-node": "^10.9.2"
+  }
+}

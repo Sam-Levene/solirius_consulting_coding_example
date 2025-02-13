@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+      "allowJs": true,
+      "baseUrl": ".",
+      "forceConsistentCasingInFileNames": true,
+      "module": "NodeNext",
+      "moduleResolution": "NodeNext",
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noUnusedLocals": true,
+      "sourceMap": true,
+      "strictNullChecks": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "target": "ES2024",
+      "strict": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "lib": [
+        "DOM", "DOM.Iterable"
+      ]
+    },
+    "exclude": [
+      "node_modules",
+      ".idea",
+      ".vscode"
+    ],
+    "include": [
+      "features/**/*.ts",
+    ]
+}

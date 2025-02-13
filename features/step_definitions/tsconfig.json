@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target": "ES2024",
+        "module": "commonjs",
+        "moduleResolution": "Node",
+        "sourceMap": true,
+        "outDir": "../tests-out",
+    }
+}
